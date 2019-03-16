@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello World, Google Map</title>
     <style>
-        /* Always set the map height explicitly to define the size of the div
-         * element that contains the map. */
-        #map {
+      a {
+        display: block;
+      }
+      #map {
           height: 50%;
           width: 50%;
           top: 50%;
@@ -21,10 +22,15 @@
           margin: 0;
           padding: 0;
         }
-      </style>
+    </style>
 </head>
 <body>
-    <div id="map"></div>
+  <a href="marker.html">Add a marker</a>
+  <a href="markerMany.html">Add many marker</a>
+  <a href="marker_Parking_taiphoon.html">Mark all the parklot in kaohsiung</a>
+  <a href="stylemap.html">Style a map</a>
+  <a href="marker_icon.html">Change the marker icon</a>
+  <div id="map"></div>
     <script>
       var map;
       function initMap() {
